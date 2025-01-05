@@ -1,3 +1,15 @@
+# Evan Changes
+### Cfclient
+* refer to this link for installing the client: [under "Configure the crazyflie"](https://www.bitcraze.io/documentation/tutorials/getting-started-with-crazyflie-2-x/#config-client)
+* to run the client, create venv, install using pip, and then start the GUI by entering `cfclient` into the shell
+* run the following for errors with Qt
+```
+export QT_QPA_PLATFORM=wayland
+sudo apt install qtwayland5
+```
+
+
+
 # Crazyflie Firmware  [![CI](https://github.com/bitcraze/crazyflie-firmware/workflows/CI/badge.svg)](https://github.com/bitcraze/crazyflie-firmware/actions?query=workflow%3ACI)
 
 This project contains the source code for the firmware used in the Crazyflie range of platforms, including the Crazyflie 2.x and the Roadrunner.

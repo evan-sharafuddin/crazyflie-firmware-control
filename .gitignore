@@ -1,5 +1,6 @@
 build_info.json
 
+clientenv
 ^bin/dep/all
 bin/*
 .cproject
